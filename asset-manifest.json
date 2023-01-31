@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/https//shivendra-singh044.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/https//shivendra-singh044.github.io/static/js/main.9c63082a.js",
+    "main.js": "/https//shivendra-singh044.github.io/static/js/main.0ff94c0f.js",
     "static/js/787.586b53ef.chunk.js": "/https//shivendra-singh044.github.io/static/js/787.586b53ef.chunk.js",
-    "static/media/logo.svg": "/https//shivendra-singh044.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/https//shivendra-singh044.github.io/index.html",
     "main.073c9b0a.css.map": "/https//shivendra-singh044.github.io/static/css/main.073c9b0a.css.map",
-    "main.9c63082a.js.map": "/https//shivendra-singh044.github.io/static/js/main.9c63082a.js.map",
+    "main.0ff94c0f.js.map": "/https//shivendra-singh044.github.io/static/js/main.0ff94c0f.js.map",
     "787.586b53ef.chunk.js.map": "/https//shivendra-singh044.github.io/static/js/787.586b53ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.9c63082a.js"
+    "static/js/main.0ff94c0f.js"
   ]
 }
