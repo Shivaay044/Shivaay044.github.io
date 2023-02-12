@@ -1,0 +1,57 @@
+.navbar{
+    display: flex;
+    justify-content: space-between ;
+    background-color: #20232a;
+    padding: 25px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.nav-menu-opt{
+  padding: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  scroll-behavior: smooth;
+}
+
+.nav-head{
+    text-decoration: none;
+    color: #04AA6D;
+    font-size: larger;
+}
+
+.hameburger-open-icon{
+  display: none;
+}
+
+
+@media (max-width: 700px) {
+  .nav-head{
+    display: none; 
+  }
+
+  .hameburger-open-icon{
+    display:block;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    color:red; 
+  }
+
+  .hameburger-open-icon-invisible{
+    display:none; 
+  }
+
+  .nav-menu-opt{
+    display: block;
+    text-decoration: none;
+  }
+
+  .nav-all-opt{
+     margin: auto;
+  }
+  
+  
+}
