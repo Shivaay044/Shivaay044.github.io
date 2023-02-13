@@ -21,7 +21,7 @@ function Navbar() {
 
   return (
     <header>
-      <div className="navbar">
+      <div id="nav-menu" className="navbar">
         <div>
           <a className="nav-head" href="#">
             SHIVENDRA SINGH
@@ -36,22 +36,22 @@ function Navbar() {
           )}
         </a>
         <div   id="thirdCircle" className={hameburger}>
-          <a className="nav-menu-opt" href="/#Home">
+          <a className="nav-link home" href="/#home">
             Home
           </a>
-          <a className="nav-menu-opt" href="/#About">
+          <a className="nav-link about" href="/#about">
             About
           </a>
-          <a className="nav-menu-opt" href="/#Skills">
+          <a className="nav-link skills" href="/#skills">
             Skills
           </a>
-          <a className="nav-menu-opt" href="/#Projects">
+          <a className="nav-link projects" href="/#projects">
             Projects
           </a>
-          <a className="nav-menu-opt" href="/#Contact">
+          <a className="nav-link contact" href="/#contact">
             Contact
           </a>
-          <a className="nav-menu-opt" href="/#Resume">
+          <a className="nav-link resume" href="/#Resume">
             Resume
           </a>
         </div>

@@ -9,7 +9,7 @@ html{
   scroll-behavior: smooth;
 }
 
-.nav-menu-opt{
+.nav-link{
   padding: 10px;
   text-decoration: none;
   color: aliceblue;
@@ -44,7 +44,7 @@ html{
     display:none; 
   }
 
-  .nav-menu-opt{
+  .nav-link{
     display: block;
     text-decoration: none;
   }

@@ -9,9 +9,7 @@ function App() {
 
   return <div className="App">
    {/* <--------Navbar------------> */}
-   
-  <Home/>
-   <h1>Hello World</h1>
+      <Home/>
    
     
 
