@@ -36,22 +36,22 @@ function Navbar() {
           )}
         </a>
         <div   id="thirdCircle" className={hameburger}>
-          <a className="nav-link home" href="/#home">
+          <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link home" href="/#home">
             Home
           </a>
-          <a className="nav-link about" href="/#about">
+          <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link about" href="/#about">
             About
           </a>
-          <a className="nav-link skills" href="/#skills">
+          <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link skills" href="/#skills">
             Skills
           </a>
-          <a className="nav-link projects" href="/#projects">
+          <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link projects" href="/#projects">
             Projects
           </a>
-          <a className="nav-link contact" href="/#contact">
+          <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link contact" href="/#contact">
             Contact
           </a>
-          <a className="nav-link resume" href="/#Resume">
+          <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link resume" href="/#Resume">
             Resume
           </a>
         </div>

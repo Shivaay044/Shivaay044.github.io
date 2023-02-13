@@ -4,38 +4,91 @@ import Contact from "../Contact/Contact";
 import Navbar from "../Navbar/Navbar";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
-
+import Typewriter from "typewriter-effect";
+import "./Home.css";
+import { ImPhone } from "react-icons/im";
+import { VscGithub } from "react-icons/vsc";
+import { SiGmail } from "react-icons/si";
+import { FiLinkedin } from "react-icons/fi";
+import { CgFileDocument } from "react-icons/cg";
+import { MdOutlineShareLocation } from "react-icons/md";
 
 function Home() {
   return (
     <div>
       <Navbar />
 
-      <div id="home" style={{border:"1px solid red",height:"50vh"}} >
-           <h1>Home</h1>
-           <div>
-             <img src={'C:\Users\shiva\OneDrive\Desktop\Portfolio\my_protfolio\src\Images\My_Pic.jpg'} />
-           </div>
-     </div>
+      <div id="home" className="home-parent">
+        <div id="user-detail-name">
+          <h1>Hi, I'm Shivendra Singh</h1>
+        </div>
+
+        <div className="typeWritter">
+          <Typewriter
+            options={{
+              strings: [
+                "A Full Stack Web Developer",
+                "An eSports Enthusiast",
+                "A Traveller",
+                "A MERN Stack Developer",
+              ],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </div>
+
+        <div id="user-detail-intro">
+          <p>
+            Strong in Web Development and integration with intuitive
+            problem-solving skills. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions.
+          </p>
+        </div>
+
+        <div className="contact-icon">
+          <div>
+            <ImPhone />
+          </div>
+          <div>
+            <VscGithub />
+          </div>
+          <div>
+            <SiGmail />
+          </div>
+          <div>
+            <FiLinkedin />
+          </div>
+          <div>
+            <CgFileDocument />
+          </div>
+          <div>
+            <MdOutlineShareLocation />
+          </div>
+        </div>
+      </div>
+
+      {/* <----other Comp-----> */}
+      <div>
+        <About />
+      </div>
 
       <div>
-       <About/>
+        <Skills />
       </div>
 
       <div>
-        <Skills/>
+        <Projects />
       </div>
 
       <div>
-      <Projects/>
+        <Contact />
       </div>
-      
-      <div>
-       <Contact/>
-      </div>
-      
     </div>
   );
 }
 
 export default Home;
+
+{
+  /*  */
+}

@@ -1,0 +1,100 @@
+
+.home-parent{
+    width: 85%;
+    margin: auto;
+    border: 2px solid red;
+    height:88vh;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: space-evenly;
+}
+
+
+
+#user-detail-name{
+  margin-top: 40px;
+  text-align: left;
+  color: aliceblue;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.typeWritter{
+    font-size: 25px; 
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#user-detail-intro{
+    padding: 10px;
+    text-align: start;
+    width: 50%;
+    color: aliceblue;
+    margin: auto;
+    font-weight: bold;
+   
+    font-size: 18px;
+}
+
+.contact-icon{
+    color: aliceblue;
+    font-size: 23px;
+    display: grid;
+    grid-template-columns: repeat(6,40px);
+    justify-content: center;
+    cursor: pointer;
+}
+
+.contact-icon>div:hover{
+    color: rgb(35, 82, 143);
+    padding: 3px;
+    text-decoration-line: underline;
+}
+
+
+
+@media (max-width: 600px) {
+ 
+    #user-detail-name{
+      font-size: 20px;
+    }
+    
+    
+    .typeWritter{
+        font-size: 23px; 
+    }
+    
+    #user-detail-intro{
+        font-weight: bold;
+        width: 60%;
+        font-size: 16px;
+    }
+    
+    .contact-icon{
+        color: aliceblue;
+        font-size: 23px;
+        display: grid;
+        grid-template-columns: repeat(6,40px);
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .contact-icon>div:hover{
+        color: rgb(35, 82, 143);
+        padding: 3px;
+        text-decoration-line: underline;
+    }
+
+    
+    
+  }
+
+
+
+
+
+
+
