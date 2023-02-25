@@ -51,7 +51,7 @@ function Navbar() {
           <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link contact" href="/#contact">
             Contact
           </a>
-          <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link resume" href="/#Resume">
+          <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link resume" id="resume-link-1" download={true} href="https://drive.google.com/file/d/1BxmB_O79aTDdO-Q3T_ciRKa63BmCqFXj/view?usp=sharing">
             Resume
           </a>
         </div>

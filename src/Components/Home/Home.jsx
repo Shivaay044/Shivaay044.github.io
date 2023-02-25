@@ -12,12 +12,13 @@ import { SiGmail } from "react-icons/si";
 import { FiLinkedin } from "react-icons/fi";
 import { CgFileDocument } from "react-icons/cg";
 import { MdOutlineShareLocation } from "react-icons/md";
+import Github from "../Github/Github";
 
 function Home() {
   return (
     <div>
       <Navbar />
-
+      <div id="home-main">
       <div id="home" className="home-parent">
         <div id="user-detail-name">
           <h1>Hi, I'm Shivendra Singh</h1>
@@ -81,9 +82,14 @@ function Home() {
       </div>
 
       <div>
+        <Github/>
+      </div>
+
+      <div>
         <Contact />
       </div>
     </div>
+  </div>
   );
 }
 

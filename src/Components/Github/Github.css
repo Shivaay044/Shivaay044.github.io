@@ -1,0 +1,85 @@
+
+#main-github{
+  border: 1px solid #d90d0d;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    color: aliceblue;
+}
+
+
+.react-activity-calendar{
+  padding: 10px;
+  margin: auto;
+}
+
+
+.github-description{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 5px;
+    text-align: left;
+}
+
+.github-description>p{
+    margin: 4px;
+    font-size: 20px;
+ }
+
+ .github-description>p>span{
+    font-size: 25px;
+ }
+
+ .git-statistics{
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-evenly;
+ }
+
+ 
+
+ .git-statistics>div{
+    width: 350px;
+    height: 150px;
+ }
+
+ @media (max-width: 800px) {
+
+    #main-github{
+          height: 150vh;
+      }
+      
+
+    .github-description{
+        width: max-content;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+        gap: 2px;
+        text-align:center;
+    }
+      
+    .git-statistics{
+         width: 400px;
+         height: auto;
+         gap: 20px;
+         flex-direction: column;
+       }
+      
+       
+      
+       .git-statistics>div{
+        margin: auto;
+          width: 350px;
+          height: 150px;
+       }
+
+     
+
+ }
+
+
+
