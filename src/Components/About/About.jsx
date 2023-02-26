@@ -17,7 +17,7 @@ function About() {
             />
           </div>
           <div className="my_introduction">
-            <p>
+            <p id="user-detail-intro">
               Hi Everyone, I am Shivendra Singh from Gorakhpur, Uttar Pradesh. I
               have completed my Higher Secondary Education from Mahatma Gandhi
               Inter College Gorakhpur , Uttar Pradesh.

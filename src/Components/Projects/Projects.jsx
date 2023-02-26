@@ -104,7 +104,7 @@ function Projects() {
                 </div>
               </div>
               <div className="project-btns">
-                <a  className="project-github-link"
+                <a  className="project-deployed-link"
                 href="https://my-app-one-mu.vercel.app/camping">
                   {" "}
                   <button>See this Live</button>

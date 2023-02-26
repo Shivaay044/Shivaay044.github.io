@@ -19,10 +19,9 @@
 
 
 #user-detail-name{
-  margin-top: 40px;
-  text-align: left;
+  margin-top: 50px;
   color: aliceblue;
-  font-size: 35px;
+  font-size: 65px;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -35,12 +34,12 @@
     font-weight: bolder;
 }
 
-#user-detail-intro{
+#my-intro{
     padding: 10px;
     text-align: start;
     width: 50%;
-    color: aliceblue;
     margin: auto;
+    color: aliceblue;
     font-weight: bold;
     line-height:2rem;
     font-size: 18px;
@@ -63,10 +62,11 @@
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
  
     #user-detail-name{
-      font-size: 20px;
+       
+      font-size: 40px;
     }
     
     
@@ -74,7 +74,7 @@
         font-size: 23px; 
     }
     
-    #user-detail-intro{
+    #my-intro{
         font-weight: bold;
         width: 60%;
         line-height: 1.5rem;

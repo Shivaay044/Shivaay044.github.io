@@ -30,7 +30,7 @@ function Github() {
             <img id="github-streak-stats" width="100%" height="100%" src="https://github-readme-streak-stats.herokuapp.com?user=shivendra-singh044&theme=merko&hide_border=true&type=png)](https://git.io/streak-stats"/>
          </div>
          <div>
-           <img id="github-top-langs" width="100%" height="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&theme=merko&hide_border=true&hide_progress=true"/>
+           <img id="github-top-langs" width="100%" height="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivendra-singh044&theme=merko&hide_border=true&hide_progress=true"/>
          </div>
          <div>
          <img id="github-stats-card" width="100%" height="100%" src="https://github-readme-stats.vercel.app/api?username=shivendra-singh044&theme=merko&&hide_border=true&hide=contribs,prs"/> 

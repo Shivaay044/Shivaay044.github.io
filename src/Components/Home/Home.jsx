@@ -39,7 +39,7 @@ function Home() {
           />
         </div>
 
-        <div id="user-detail-intro">
+        <div id="my-intro">
           <p>
             Strong in Web Development and integration with intuitive
             problem-solving skills. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions.
