@@ -10,8 +10,8 @@ function About() {
         <br></br>
         <br></br>
         <div className="about_me">
-          <div className="home-img">
-            <img
+          <div className="home-img-parent">
+            <img className="home-img"
               style={{ width: "100%", height: "100%", borderRadius: "50%" }}
               src="https://avatars.githubusercontent.com/u/110078755?v=4"
             />
@@ -41,7 +41,7 @@ function About() {
           </div>
         </div>
         <div>
-        <a  id="resume-link-2" href="https://drive.google.com/file/d/1BxmB_O79aTDdO-Q3T_ciRKa63BmCqFXj/view?usp=sharing">
+        <a  id="resume-link-2" href="https://drive.google.com/file/d/1BxmB_O79aTDdO-Q3T_ciRKa63BmCqFXj/view?usp=sharing" download>
         <button>Resume</button>
         </a>
          

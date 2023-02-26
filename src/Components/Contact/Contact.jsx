@@ -14,23 +14,23 @@ function Contact() {
       <div id="contact" >
         <h1>GET IN TOUCH</h1>
         <div className="contact-me">
-          <div id="contact-phone">
-            <a  href="tel:+918303333971">
+          <div>
+            <a  id="contact-phone" href="tel:+918303333971">
               <ImPhone />
             </a>
           </div>
-          <div id="contact-github">
-            <a href="https://github.com/Shivendra-Singh044">
+          <div>
+            <a id="contact-github" href="https://github.com/Shivendra-Singh044">
               <VscGithub />
             </a>
           </div>
-          <div id="contact-email">
-            <a href="https://shivendrapaliwal99990@gmail.com">
+          <div>
+            <a id="contact-email" href="https://shivendrapaliwal99990@gmail.com">
               <SiGmail />
             </a>
           </div>
-          <div id="contact-linkedin">
-            <a href="https://www.linkedin.com/in/shivendrasingh044/">
+          <div>
+            <a id="contact-linkedin" href="https://www.linkedin.com/in/shivendrasingh044/">
               <FiLinkedin />
             </a>
           </div>

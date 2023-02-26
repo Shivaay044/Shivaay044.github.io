@@ -20,8 +20,8 @@ function Home() {
       <Navbar />
       <div id="home-main">
       <div id="home" className="home-parent">
-        <div id="user-detail-name">
-          <h1>Hi, I'm Shivendra Singh</h1>
+        <div>
+          <h1 id="user-detail-name">Hi, I'm Shivendra Singh</h1>
         </div>
 
         <div className="typeWritter">

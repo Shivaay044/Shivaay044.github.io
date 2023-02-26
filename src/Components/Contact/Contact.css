@@ -1,5 +1,5 @@
 #contact{
-    border: 1px solid red;
+    /* border: 1px solid red; */
      height: 50vh;
      width: 90%;
      margin: auto;
@@ -18,7 +18,13 @@
 }
 
 .contact-me>div>a>svg{
-    font-size: 60px;
+    font-size: 75px;
     font-weight: bold;
     color: rgb(64, 197, 47);
+    padding: 8px;
+}
+
+.contact-me>div>a>svg:hover{
+   padding: 1px;
+   transition: 1s;
 }

@@ -15,181 +15,215 @@ function Projects() {
         <br></br>
         <br></br>
         <div>
-        <div className="project-card">
-          <div className="project-image">
-            <img
-              width="100%"
-              height="100%"
-              src="https://github.com/harshchaturvedi1/mailChimp-clone/blob/master/public/githubReadme/home.png?raw=true"
-            />
-          </div>
+          <div className="project-card">
+            <div className="project-image">
+              <img
+                width="100%"
+                height="100%"
+                src="https://github.com/harshchaturvedi1/mailChimp-clone/blob/master/public/githubReadme/home.png?raw=true"
+              />
+            </div>
 
-          <div className="project-about">
-            <h3 className="project-title">Mail Chimp Replica</h3>
-            <p className="project-description">
-              Clone of the popular email campaigning app Mail Chimp. Built on
-              react for front end and nodeJS on backend. It's a team project
-              completed executed in 5 days.
-            </p>
-            <div className="project-tech-stack">
-              <div>
-                <FaReact />
+            <div className="project-about">
+              <h3 className="project-title">Mail Chimp Replica</h3>
+              <p className="project-description">
+                Clone of the popular email campaigning app Mail Chimp. Built on
+                react for front end and nodeJS on backend. It's a team project
+                completed executed in 5 days.
+              </p>
+              <div className="project-tech-stack">
+                <div>
+                  <FaReact />
+                </div>
+                <div>
+                  <SiHtml5 />
+                </div>
+                <div>
+                  <SiJavascript />
+                </div>
+                <div>
+                  <IoLogoNodejs />
+                </div>
+                <div>
+                  <SiExpress />
+                </div>
+                <div>
+                  <SiMongodb />
+                </div>
               </div>
-              <div>
-                <SiHtml5 />
+              <div className="project-btns">
+                <a className="project-deployed-link"
+                href="https://my-app-one-mu.vercel.app/camping">
+                  {" "}
+                  <button>See this Live</button>
+                </a>
+                <a className="project-github-link"
+                  href="https://github.com/Shivendra-Singh044/-permissible-cloth-4922"
+                >
+                  <button>View Code</button>
+                </a>
               </div>
-              <div>
-                <SiJavascript />
-              </div>
-              <div>
-                <IoLogoNodejs />
-              </div>
-              <div>
-                <SiExpress />
-              </div>
-              <div>
-                <SiMongodb />
-              </div>
-            </div>
-            <div className="project-btns">
-            <a href="https://my-app-one-mu.vercel.app/camping"> <button>See this Live</button></a>
-            <a href="https://github.com/Shivendra-Singh044/-permissible-cloth-4922" class="project-github-link"><button>View Code</button></a>
             </div>
           </div>
-        </div>
-        <br></br>
+          <br></br>
 
-        <div className="project-card">
-          <div className="project-image">
-            <img
-              width="100%"
-              height="100%"
-              src="https://github.com/harshchaturvedi1/mailChimp-clone/blob/master/public/githubReadme/home.png?raw=true"
-            />
-          </div>
+          <div className="project-card">
+            <div className="project-image">
+              <img
+                width="100%"
+                height="100%"
+                src="https://github.com/harshchaturvedi1/mailChimp-clone/blob/master/public/githubReadme/home.png?raw=true"
+              />
+            </div>
 
-          <div className="project-about">
-            <h3 className="project-title">Mail Chimp Replica</h3>
-            <p className="project-description">
-              Clone of the popular email campaigning app Mail Chimp. Built on
-              react for front end and nodeJS on backend. It's a team project
-              completed executed in 5 days.
-            </p>
-            <div className="project-tech-stack">
-              <div>
-                <FaReact />
+            <div className="project-about">
+              <h3 className="project-title">Mail Chimp Replica</h3>
+              <p className="project-description">
+                Clone of the popular email campaigning app Mail Chimp. Built on
+                react for front end and nodeJS on backend. It's a team project
+                completed executed in 5 days.
+              </p>
+              <div className="project-tech-stack">
+                <div>
+                  <FaReact />
+                </div>
+                <div>
+                  <SiHtml5 />
+                </div>
+                <div>
+                  <SiJavascript />
+                </div>
+                <div>
+                  <IoLogoNodejs />
+                </div>
+                <div>
+                  <SiExpress />
+                </div>
+                <div>
+                  <SiMongodb />
+                </div>
               </div>
-              <div>
-                <SiHtml5 />
+              <div className="project-btns">
+                <a  className="project-github-link"
+                href="https://my-app-one-mu.vercel.app/camping">
+                  {" "}
+                  <button>See this Live</button>
+                </a>
+                <a class="project-github-link"
+                  href="https://github.com/Shivendra-Singh044/-permissible-cloth-4922"
+                >
+                  <button>View Code</button>
+                </a>
               </div>
-              <div>
-                <SiJavascript />
-              </div>
-              <div>
-                <IoLogoNodejs />
-              </div>
-              <div>
-                <SiExpress />
-              </div>
-              <div>
-                <SiMongodb />
-              </div>
-            </div>
-            <div className="project-btns">
-            <a href="https://my-app-one-mu.vercel.app/camping"> <button>See this Live</button></a>
-            <a href="https://github.com/Shivendra-Singh044/-permissible-cloth-4922" class="project-github-link"><button>View Code</button></a>
             </div>
           </div>
-        </div>
-        <br></br>
+          <br></br>
 
-        <div className="project-card">
-          <div className="project-image">
-            <img
-              width="100%"
-              height="100%"
-              src="https://github.com/harshchaturvedi1/mailChimp-clone/blob/master/public/githubReadme/home.png?raw=true"
-            />
-          </div>
+          <div className="project-card">
+            <div className="project-image">
+              <img
+                width="100%"
+                height="100%"
+                src="https://github.com/harshchaturvedi1/mailChimp-clone/blob/master/public/githubReadme/home.png?raw=true"
+              />
+            </div>
 
-          <div className="project-about">
-            <h3 className="project-title">Mail Chimp Replica</h3>
-            <p className="project-description">
-              Clone of the popular email campaigning app Mail Chimp. Built on
-              react for front end and nodeJS on backend. It's a team project
-              completed executed in 5 days.
-            </p>
-            <div className="project-tech-stack">
-              <div>
-                <FaReact />
+            <div className="project-about">
+              <h3 className="project-title">Mail Chimp Replica</h3>
+              <p className="project-description">
+                Clone of the popular email campaigning app Mail Chimp. Built on
+                react for front end and nodeJS on backend. It's a team project
+                completed executed in 5 days.
+              </p>
+              <div className="project-tech-stack">
+                <div>
+                  <FaReact />
+                </div>
+                <div>
+                  <SiHtml5 />
+                </div>
+                <div>
+                  <SiJavascript />
+                </div>
+                <div>
+                  <IoLogoNodejs />
+                </div>
+                <div>
+                  <SiExpress />
+                </div>
+                <div>
+                  <SiMongodb />
+                </div>
               </div>
-              <div>
-                <SiHtml5 />
+              <div className="project-btns">
+                <a className="project-deployed-link"
+                href="https://my-app-one-mu.vercel.app/camping">
+                  {" "}
+                  <button>See this Live</button>
+                </a>
+                <a  className="project-github-link"
+                  href="https://github.com/Shivendra-Singh044/-permissible-cloth-4922"
+                >
+                  <button>View Code</button>
+                </a>
               </div>
-              <div>
-                <SiJavascript />
-              </div>
-              <div>
-                <IoLogoNodejs />
-              </div>
-              <div>
-                <SiExpress />
-              </div>
-              <div>
-                <SiMongodb />
-              </div>
-            </div>
-            <div className="project-btns">
-            <a href="https://my-app-one-mu.vercel.app/camping"> <button>See this Live</button></a>
-            <a href="https://github.com/Shivendra-Singh044/-permissible-cloth-4922" class="project-github-link"><button>View Code</button></a>
             </div>
           </div>
-        </div>
-        <br></br>
+          <br></br>
 
-        <div className="project-card">
-          <div className="project-image">
-            <img
-              width="100%"
-              height="100%"
-              src="https://github.com/harshchaturvedi1/mailChimp-clone/blob/master/public/githubReadme/home.png?raw=true"
-            />
-          </div>
+          <div className="project-card">
+            <div className="project-image">
+              <img
+                width="100%"
+                height="100%"
+                src="https://github.com/harshchaturvedi1/mailChimp-clone/blob/master/public/githubReadme/home.png?raw=true"
+              />
+            </div>
 
-          <div className="project-about">
-            <h3 className="project-title">Mail Chimp Replica</h3>
-            <p className="project-description">
-              Clone of the popular email campaigning app Mail Chimp. Built on
-              react for front end and nodeJS on backend. It's a team project
-              completed executed in 5 days.
-            </p>
-            <div className="project-tech-stack">
-              <div>
-                <FaReact />
+            <div className="project-about">
+              <h3 className="project-title">Mail Chimp Replica</h3>
+              <p className="project-description">
+                Clone of the popular email campaigning app Mail Chimp. Built on
+                react for front end and nodeJS on backend. It's a team project
+                completed executed in 5 days.
+              </p>
+              <div className="project-tech-stack">
+                <div>
+                  <FaReact />
+                </div>
+                <div>
+                  <SiHtml5 />
+                </div>
+                <div>
+                  <SiJavascript />
+                </div>
+                <div>
+                  <IoLogoNodejs />
+                </div>
+                <div>
+                  <SiExpress />
+                </div>
+                <div>
+                  <SiMongodb />
+                </div>
               </div>
-              <div>
-                <SiHtml5 />
+              <div className="project-btns">
+                <a
+                  className="project-deployed-link"
+                  href="https://my-app-one-mu.vercel.app/camping"
+                >
+                  {" "}
+                  <button>See this Live</button>
+                </a>
+                <a
+                  className="project-github-link"
+                  href="https://github.com/Shivendra-Singh044/-permissible-cloth-4922"
+                >
+                  <button>View Code</button>
+                </a>
               </div>
-              <div>
-                <SiJavascript />
-              </div>
-              <div>
-                <IoLogoNodejs />
-              </div>
-              <div>
-                <SiExpress />
-              </div>
-              <div>
-                <SiMongodb />
-              </div>
-            </div>
-            <div className="project-btns">
-            <a className="project-deployed-link"
-             href="https://my-app-one-mu.vercel.app/camping"> <button>See this Live</button></a>
-            <a href="https://github.com/Shivendra-Singh044/-permissible-cloth-4922" className="project-github-link"><button>View Code</button></a>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@
 .home-parent{
     width: 90%;
     margin: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height:100vh;
     padding: 30px;
     display: grid;

@@ -1,5 +1,5 @@
 #about {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 100vh;
   width: 90%;
   padding: 30px;
@@ -21,7 +21,7 @@
   padding: 10px;
 }
 
-.home-img {
+.home-img-parent {
   height: 400px;
   margin: 10px;
   width: 400px;
@@ -33,6 +33,19 @@
   color: aliceblue;
   width: 50%;
   /* border: 1px solid #c91e1e; */
+}
+
+#resume-link-2>button{
+  padding: 8px;
+  padding-left: 7px;
+  padding-right: 7px;
+   position: relative;
+   top: -60px;
+   margin-left: 10px;
+}
+
+#resume-link-2>button:hover{
+  background: #35d00e;
 }
 
 
@@ -48,7 +61,7 @@
         line-height: 1.5rem;
       }
 
-      .home-img {
+      .home-img-parent {
         height: 220px;
         margin: auto;
         width: 220px;
@@ -61,6 +74,12 @@
         padding: 10px;
         margin: auto;
         /* border: 1px solid #4ec91e; */
+      }
+
+      #resume-link-2>button{
+         position: relative;
+         top: 30px;
+         margin-left: 10px;
       }
 }
 
