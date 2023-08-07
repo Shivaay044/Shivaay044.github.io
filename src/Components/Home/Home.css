@@ -1,6 +1,5 @@
 
 #home-main{
-   
     position: relative;
     top: 70px;
 }
@@ -8,55 +7,79 @@
 .home-parent{
     width: 90%;
     margin: auto;
-    /* border: 2px solid red; */
-    height:100vh;
-    padding: 30px;
+    height:90vh;
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     justify-content: space-evenly;
 }
 
-
+.addtobag{
+    background-image: linear-gradient(-45deg, blue, skyblue);
+    width: 80%;
+    padding: 18px 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
 
 #user-detail-name{
   margin-top: 50px;
-  color: aliceblue;
+  color:#bdbddd;
   font-size: 65px;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: cursive;
+  
 }
 
+#user-detail-name>span{
+    color: #40e48f;
+}
 
 .typeWritter{
     font-size: 25px; 
-    color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+    color:#9ec82a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
 }
 
 #my-intro{
+    /* border: 1px solid #b42929; */
     padding: 10px;
-    text-align: start;
+    text-align: justify;
     width: 50%;
     margin: auto;
-    color: aliceblue;
+    color: #bdbddd;
     font-weight: bold;
     line-height:2rem;
     font-size: 18px;
 }
 
 .contact-icon{
-    color: aliceblue;
-    font-size: 23px;
     display: grid;
-    grid-template-columns: repeat(6,40px);
+    width: max-content;
+    margin: auto;
+    grid-template-columns: repeat(6,1fr);
+    gap: 15px;
     justify-content: center;
     cursor: pointer;
+    color: #35d00e;
 }
 
-.contact-icon>div:hover{
+.contact-icon>div>a>svg{
+   padding: 4px;
+}
+
+.contact-icon>div>a>svg:hover{
     color: rgb(35, 82, 143);
-    padding: 3px;
+    transition: 0.4s;
+    padding: 1px;
     text-decoration-line: underline;
 }
 
@@ -76,27 +99,10 @@
     
     #my-intro{
         font-weight: bold;
-        width: 60%;
+        width: auto;
         line-height: 1.5rem;
         font-size: 16px;
     }
-    
-    .contact-icon{
-        color: aliceblue;
-        font-size: 23px;
-        display: grid;
-        grid-template-columns: repeat(6,40px);
-        justify-content: center;
-        cursor: pointer;
-    }
-    
-    .contact-icon>div:hover{
-        color: rgb(35, 82, 143);
-        padding: 3px;
-        text-decoration-line: underline;
-    }
-
-    
     
   }
 

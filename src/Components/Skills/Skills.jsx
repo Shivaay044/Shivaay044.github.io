@@ -13,7 +13,7 @@ function Skills() {
   return <div>
   <div id="skills">
            <h1>Skills</h1>
-        <div className="skills_icons">
+        <div  data-aos="fade-right" className="skills_icons">
          <div  className="skills-card">
           <SiJavascript class="skills-card-img"/>
           <h6 className="skills-card-name">JavaScript</h6>
@@ -61,7 +61,7 @@ function Skills() {
 
          <div  className="skills-card">
           <FaMdb class="skills-card-img"/>
-          <h6 className="skills-card-name">MDB Bootstrap</h6>
+          <h6 className="skills-card-name">Bootstrap</h6>
          </div>
 
          <div  className="skills-card">

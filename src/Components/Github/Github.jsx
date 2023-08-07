@@ -11,29 +11,29 @@ function Github() {
   return <div id="main-github">
     <h1>Github</h1>
     <br></br>
-    <div className="react-activity-calendar">
-    <GitHubCalendar  username="shivendra-singh044"     /> 
+    <div data-aos="fade-right" className="react-activity-calendar">
+    <GitHubCalendar blockSize={18} showWeekdayLabels={true} username="Shivaay044"     /> 
     </div>
     <br></br>
-    <div className="github-description">
-        <p> <span><FaCode/></span>  1100+ Hours Practical Coding</p>
-        <p> <span><RiLightbulbFlashLine/></span> 250+ Hours Data Structures & Algorithms</p>
-        <p> <span><BiUserVoice/></span> 100+ Hours Soft Skill Development</p>
-        <p> <span><AiOutlineFundProjectionScreen/></span> 4+ Projects</p>
-        <p> <span><VscGraph/></span> 10+ Mini Projects</p>
-        <p> <span><FaGit/></span> 300+ Git Commits</p>
+    <div data-aos="fade-right" className="github-description">
+        <p><span><FaCode/></span> &nbsp; 1100+ Hours Practical Coding</p>
+        <p> <span><RiLightbulbFlashLine/></span> &nbsp; 250+ Hours Data Structures & Algorithms</p>
+        <p> <span><BiUserVoice/></span> &nbsp; 100+ Hours Soft Skill Development</p>
+        <p> <span><AiOutlineFundProjectionScreen/></span> &nbsp; 4+ Projects</p>
+        <p> <span><VscGraph/></span> &nbsp; 10+ Mini Projects</p>
+        <p> <span><FaGit/></span> &nbsp; 300+ Git Commits</p>
     </div>
     <br></br>
     <br></br>
-    <div className="git-statistics">
+    <div data-aos="fade-right" className="git-statistics">
          <div>
-            <img id="github-streak-stats" width="100%" height="100%" src="https://github-readme-streak-stats.herokuapp.com?user=shivendra-singh044&theme=merko&hide_border=true&type=png)](https://git.io/streak-stats"/>
+            <img id="github-streak-stats" width="100%" height="100%" src="https://github-readme-streak-stats.herokuapp.com?user=Shivaay044&theme=merko&hide_border=true&type=png)](https://git.io/streak-stats"/>
          </div>
          <div>
-           <img id="github-top-langs" width="100%" height="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivendra-singh044&theme=merko&hide_border=true&hide_progress=true"/>
+           <img id="github-top-langs" width="100%" height="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivaay044&theme=merko&hide_border=true&hide_progress=true"/>
          </div>
          <div>
-         <img id="github-stats-card" width="100%" height="100%" src="https://github-readme-stats.vercel.app/api?username=shivendra-singh044&theme=merko&&hide_border=true&hide=contribs,prs"/> 
+         <img id="github-stats-card" width="100%" height="100%" src="https://github-readme-stats.vercel.app/api?username=Shivaay044&theme=merko&&hide_border=true&hide=contribs,prs"/> 
          </div>
     </div>
   </div>;

@@ -2,12 +2,15 @@ import React, { useEffect, useRef, useState } from "react";
 import "./Navbar.css";
 import { FiMenu } from "react-icons/fi";
 import { CgClose } from "react-icons/cg";
-import gsap from "gsap";
+import { HiHome } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaTools } from "react-icons/fa";
+import {AiTwotoneSetting} from "react-icons/ai";
+import {MdContacts} from "react-icons/md";
+
 
 function Navbar() {
   const [hameburger, setHamberger] = useState("hameburger-open-icon-invisible");
-
-  
 
   const handleHamburgToggle = (e) => {
     if (hameburger === "hameburger-open-icon-invisible") {
@@ -16,8 +19,6 @@ function Navbar() {
       setHamberger("hameburger-open-icon-invisible");
     }
   };
-
-
 
   return (
     <header>
@@ -28,32 +29,74 @@ function Navbar() {
           </a>
         </div>
 
-        <a  onClick={handleHamburgToggle} className="hameburger-open-icon">
+        <a onClick={handleHamburgToggle} className="hameburger-open-icon">
           {hameburger == "nav-all-opt" ? (
             <CgClose size="35px" />
           ) : (
             <FiMenu size="35px" />
           )}
         </a>
-        <div   id="thirdCircle" className={hameburger}>
-          <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link home" href="/#home">
-            Home
+        <div id="thirdCircle" className={hameburger}>
+          <a
+            onClick={() => {
+              setHamberger("hameburger-open-icon-invisible");
+            }}
+            className="nav-link home"
+            href="/#home"
+          >
+            <span><HiHome/> Home</span>
           </a>
-          <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link about" href="/#about">
-            About
+          <a
+            onClick={() => {
+              setHamberger("hameburger-open-icon-invisible");
+            }}
+            className="nav-link about"
+            href="/#about"
+          >
+           <span><BsFillPersonLinesFill/> About</span>
           </a>
-          <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link skills" href="/#skills">
-            Skills
+          <a
+            onClick={() => {
+              setHamberger("hameburger-open-icon-invisible");
+            }}
+            className="nav-link skills"
+            href="/#skills"
+          >
+           <span><FaTools/> Skills </span>
           </a>
-          <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link projects" href="/#projects">
-            Projects
+          <a
+            onClick={() => {
+              setHamberger("hameburger-open-icon-invisible");
+            }}
+            className="nav-link projects"
+            href="/#projects"
+          >
+           <span><AiTwotoneSetting/> Projects</span>
           </a>
-          <a onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link contact" href="/#contact">
-            Contact
+          <a
+            onClick={() => {
+              setHamberger("hameburger-open-icon-invisible");
+            }}
+            className="nav-link contact"
+            href="/#contact"
+          >
+           <span><MdContacts/> Contact</span>
           </a>
-          <a target="_blank" onClick={() =>{setHamberger("hameburger-open-icon-invisible")}} className="nav-link resume" id="resume-link-1" href="https://drive.google.com/file/d/1BxmB_O79aTDdO-Q3T_ciRKa63BmCqFXj/view?usp=sharing" download>
-            Resume
-          </a>
+          <button>
+            <a
+              onClick={() => {
+                setHamberger("hameburger-open-icon-invisible")
+              }}
+              className="nav-link resume"
+              id="resume-button-1"
+              href="https://drive.google.com/u/0/uc?id=1BxmB_O79aTDdO-Q3T_ciRKa63BmCqFXj&export=download"
+              target="_blank"
+              rel="noreferrer"
+              download="Shivendra_Singh_Resume.pdf"
+            >
+              Resume
+            </a>
+          </button>
         </div>
       </div>
     </header>

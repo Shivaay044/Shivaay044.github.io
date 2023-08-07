@@ -2,11 +2,16 @@
 #main-github{
   /* border: 1px solid #d90d0d; */
     width: 90%;
-    height: 100vh;
+    height: auto;
     margin: auto;
-    color: aliceblue;
+    color: #bdbddd;
+    padding-top: 40px;
 }
 
+#main-github>h1{
+  text-decoration-line: underline;
+  color: #8cbcc4;
+}
 
 .react-activity-calendar{
   padding: 10px;
@@ -15,27 +20,32 @@
 
 
 .github-description{
-    width: 60%;
+  /* border: 1px solid #d70c0c; */
+    width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,1fr);
-    gap: 5px;
-    text-align: left;
+    gap: 3px;
+    text-align: center;
 }
 
 .github-description>p{
     margin: 4px;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
  }
 
  .github-description>p>span{
     font-size: 25px;
+    color: #ecdcc1;
  }
 
  .git-statistics{
+  /* border: 1px solid #c31717; */
   display: flex;
-  width: 95%;
+  width: auto;
   margin: auto;
   justify-content: space-evenly;
  }
@@ -48,14 +58,8 @@
  }
 
  @media (max-width: 800px) {
-
-    #main-github{
-          height: 150vh;
-      }
-      
-
     .github-description{
-        width: max-content;
+        width: auto;
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(6,1fr);
         gap: 2px;
@@ -63,7 +67,7 @@
     }
       
     .git-statistics{
-         width: 400px;
+         width: 90%;
          height: auto;
          gap: 20px;
          flex-direction: column;
@@ -73,7 +77,7 @@
       
        .git-statistics>div{
         margin: auto;
-          width: 350px;
+          width: auto;
           height: 150px;
        }
 
