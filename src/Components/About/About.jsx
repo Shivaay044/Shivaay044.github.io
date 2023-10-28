@@ -56,7 +56,7 @@ function About() {
           <button>
             <a
               id="resume-button-2"
-              href="https://drive.google.com/u/0/uc?id=1BxmB_O79aTDdO-Q3T_ciRKa63BmCqFXj&export=download"
+              href="https://drive.google.com/uc?export=download&id=1_QMQsxZ1AFKyRtPkXZ_UeaKocv0Avqhp"
               target="_blank"
               rel="noreferrer"
               download="Shivendra_Singh_Resume.pdf"

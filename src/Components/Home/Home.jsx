@@ -75,7 +75,7 @@ function Home() {
             </a>
           </div>
           <div>
-          <a target={"_blank"} href="https://drive.google.com/file/d/1BxmB_O79aTDdO-Q3T_ciRKa63BmCqFXj/view?usp=sharing">
+          <a target={"_blank"} href="https://drive.google.com/file/d/1_QMQsxZ1AFKyRtPkXZ_UeaKocv0Avqhp/view?usp=sharing">
               <CgFileDocument color="#35d00e" fontSize="30px" />
             </a>
           </div>

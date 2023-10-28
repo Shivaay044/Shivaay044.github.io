@@ -30,60 +30,7 @@ export default Contact;
 
 
 
-#contact{
-    /* border: 1px solid red; */
-     height: 40vh;
-     width: 90%;
-     margin: auto;
-}
-
-#contact>h1{
-    text-decoration-line: underline;
-    color: #8cbcc4;
-  }
 
 
-
-.contact-me{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    height:auto;
-    position: relative;
-    top: 80px;
-}
-
-.contact-me>div>a{
- display: flex;
- align-items: center;
-
-}
-
-.contact-me>div>a>svg{
-    font-size: 65px;
-    font-weight: bold;
-    color: rgb(64, 197, 47);
-    padding: 8px;
-}
-
-.contact-me>div>a>svg:hover{
-   padding: 1px;
-   transition: 1s;
-}
-
-.contact-me>div>a>span{
-   color: aliceblue;
- }
-
-@media (max-width: 800px) {
-    #contact{
-       
-        position: relative;
-        top: 20px;
-        
-    }
-}
 
 
