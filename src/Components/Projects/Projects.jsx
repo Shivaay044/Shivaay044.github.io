@@ -6,6 +6,7 @@ import { SiJavascript } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import ReactTooltip from "react-tooltip";
 
 function Projects() {
   return (
@@ -14,13 +15,65 @@ function Projects() {
         <h1>Projects</h1>
         <br></br>
         <br></br>
+        
+        <div data-aos="flip-left" className="project-card">
+            <div className="project-image">
+              <img
+                width="100%"
+                height="100%"
+                src="https://i.ibb.co/1RfsmnD/Screenshot-240.png"
+              />
+            </div>
+
+            <div className="project-about">
+              <h3 className="project-title">Xperiokids.com</h3>
+              <p className="project-description">
+              Welcome to Xperiokids Educational Institute, where the founder's vision is centered around providing an educational experience that prioritizes hands-on experimentation over traditional theory-based learning. As the founder of Xperiokids, they recognized the shortcomings of mainstream education, particularly in the neglect of practical application, especially within the realm of science education.
+              </p>
+              <div className="project-tech-stack">
+                <div>
+                  <FaReact />
+                </div>
+                <div>
+                  <SiHtml5 />
+                </div>
+                <div>
+                  <SiJavascript />
+                </div>
+                <div>
+                  <IoLogoNodejs />
+                </div>
+                <div>
+                  <SiExpress />
+                </div>
+                <div>
+                  <SiMongodb />
+                </div>
+              </div>
+              <div className="project-btns">
+                <a className="project-deployed-link"
+                href="https://xperiokids.com/">
+                  {" "}
+                  <button>See this Live</button>
+                </a>
+                <a data-tip="Cannot Reveal code" className="project-github-link"
+                  href="https://github.com/Shivaay044/Xperiokids"
+                >
+                  <button data-tip="Cannot Reveal code">View Code</button>
+                </a>
+                <ReactTooltip place="bottom" type="info" />
+              </div>
+            </div>
+          </div>
+          <br></br>
+
         <div>
           <div data-aos="flip-left" className="project-card">
             <div className="project-image">
               <img
                 width="100%"
                 height="100%"
-                src="https://camo.githubusercontent.com/07805558f1f04fe51185891f7aecec142c6fd531a92c226ed04021b5b5c030b1/68747470733a2f2f692e706f7374696d672e63632f643031516b7359622f53637265656e73686f742d39382e706e67"
+                src="https://camo.githubusercontent.com/12480954895ff95a45fb25692bac82cb59a1a67a9aee35a4b37f08453b0b766d/68747470733a2f2f692e706f7374696d672e63632f62774d62774258392f53637265656e73686f742d3130302e706e67"
               />
             </div>
 
@@ -51,11 +104,13 @@ function Projects() {
               </div>
               <div className="project-btns">
                 <a className="project-deployed-link"
+                 target="_blank"
                 href="https://bolt-beryl.vercel.app/">
                   {" "}
                   <button>See this Live</button>
                 </a>
                 <a className="project-github-link"
+                  target="_blank"
                   href="https://github.com/Shivaay044/teal-fuel-7913"
                 >
                   <button>View Code</button>
@@ -70,7 +125,7 @@ function Projects() {
               <img
                 width="100%"
                 height="100%"
-                src="https://camo.githubusercontent.com/fa8f94b29ffa24f29cd848458ec1a3b063e5272337af0f23f059e3ec9264770d/68747470733a2f2f692e706f7374696d672e63632f4d547a6b7434714b2f53637265656e73686f742d3132342e706e67"
+                src="https://camo.githubusercontent.com/d09f6f37eb23c3216c6f11ec605d2afdec741da771e10662eb46df543f6fa52e/68747470733a2f2f692e706f7374696d672e63632f4d547a6b7434714b2f53637265656e73686f742d3132342e706e67"
               />
             </div>
 
@@ -92,62 +147,14 @@ function Projects() {
               </div>
               <div className="project-btns">
                 <a  className="project-deployed-link"
+                target="_blank"
                 href="https://flappy-bird-inky-delta.vercel.app/">
                   {" "}
                   <button>See this Live</button>
                 </a>
                 <a class="project-github-link"
+                target="_blank"
                   href="https://github.com/Shivaay044/Flappy_Bird"
-                >
-                  <button>View Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <br></br>
-
-          <div data-aos="flip-left" className="project-card">
-            <div className="project-image">
-              <img
-                width="100%"
-                height="100%"
-                src="https://camo.githubusercontent.com/23a2bf2b5f6c1a056db0adb57649db3cb74aecf7b41b75b4b45e4f68c45d985f/68747470733a2f2f692e706f7374696d672e63632f6847664a72355a522f53637265656e73686f742d3131362e706e67"
-              />
-            </div>
-
-            <div className="project-about">
-              <h3 className="project-title">BassPro Shops Replica</h3>
-              <p className="project-description">
-              Vegan Market is Clone of Bass Pro Shops which is a mobile and web application-based online marketplace that provides its users with clothes, shoes and boots, camping materials, hunting clothes, hunting equipment, and shooting equipment. It comprises of stores and Tracker Marine Centers across North America.
-              </p>
-              <div className="project-tech-stack">
-                <div>
-                  <FaReact />
-                </div>
-                <div>
-                  <SiHtml5 />
-                </div>
-                <div>
-                  <SiJavascript />
-                </div>
-                <div>
-                  <IoLogoNodejs />
-                </div>
-                <div>
-                  <SiExpress />
-                </div>
-                <div>
-                  <SiMongodb />
-                </div>
-              </div>
-              <div className="project-btns">
-                <a className="project-deployed-link"
-                href=" https://my-app-one-mu.vercel.app/">
-                  {" "}
-                  <button>See this Live</button>
-                </a>
-                <a  className="project-github-link"
-                  href="https://github.com/Shivaay044/-permissible-cloth-4922"
                 >
                   <button>View Code</button>
                 </a>
@@ -192,12 +199,14 @@ function Projects() {
               </div>
               <div className="project-btns">
                 <a
+                  target="_blank"
                   className="https://frontend-phi-five-95.vercel.app/"
                 >
                   {" "}
                   <button>See this Live</button>
                 </a>
                 <a
+                target="_blank"
                   className="project-github-link"
                   href="https://github.com/Shivaay044/glossy-paper-5488"
                 >

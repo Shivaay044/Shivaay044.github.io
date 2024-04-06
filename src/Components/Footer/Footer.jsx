@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className="footer-main">
       <div>
-        <a href="https://github.com/shivaay044">
+        <a target="_blank" href="https://github.com/shivaay044">
           <span className="footer-svg">
             <BsCpuFill />
           </span>

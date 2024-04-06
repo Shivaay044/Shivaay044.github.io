@@ -55,32 +55,32 @@ function Home() {
 
         <div className="contact-icon">
           <div>
-          <a href="tel:+918303333971">
+          <a target="_blank" href="tel:+918303333971">
               <ImPhone color="#35d00e" fontSize="30px" />
           </a>
           </div>
           <div>
-          <a href="https://github.com/shivaay044">
+          <a target="_blank" href="https://github.com/shivaay044">
               <VscGithub color="#35d00e" fontSize="30px" />
             </a>
           </div>
           <div>
-          <a href="mailto:shivendrapaliwal99990@gmail.com">
+          <a target="_blank" href="mailto:shivendrapaliwal99990@gmail.com">
               <SiGmail color="#35d00e" fontSize="30px" /> 
             </a>
           </div>
           <div>
-          <a href="https://www.linkedin.com/in/shivendra-singh044/">
+          <a target="_blank" href="https://www.linkedin.com/in/shivendra-singh044/">
               <FiLinkedin color="#35d00e" fontSize="30px" />   
             </a>
           </div>
           <div>
-          <a target={"_blank"} href="https://drive.google.com/file/d/1_QMQsxZ1AFKyRtPkXZ_UeaKocv0Avqhp/view?usp=sharing">
+          <a  target="_blank" href="https://drive.google.com/file/d/1_QMQsxZ1AFKyRtPkXZ_UeaKocv0Avqhp/view?usp=sharing">
               <CgFileDocument color="#35d00e" fontSize="30px" />
             </a>
           </div>
           <div>
-          <a href="https://goo.gl/maps/ZUHf3rtQB7EdTPMr6">
+          <a target="_blank" href="https://goo.gl/maps/ZUHf3rtQB7EdTPMr6">
             <MdOutlineShareLocation color="#35d00e" fontSize="30px" />
           </a>
           </div>

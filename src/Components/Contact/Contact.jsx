@@ -72,28 +72,28 @@ function Contact() {
             </div>
             <div>
               <div>
-                <a href="https://goo.gl/maps/ZUHf3rtQB7EdTPMr6">
+                <a target="_blank" href="https://goo.gl/maps/ZUHf3rtQB7EdTPMr6">
                   <span>
                     <MdOutlineShareLocation /> Gorakhpur , Uttar Pradesh
                   </span>
                 </a>
               </div>
               <div>
-                <a href="tel:+918303333971">
+                <a target="_blank" href="tel:+918303333971">
                   <span>
                     <ImPhone /> +918303333971
                   </span>
                 </a>
               </div>
               <div>
-                <a href="mailto:shivendrapaliwal99990@gmail.com">
+                <a target="_blank" href="mailto:shivendrapaliwal99990@gmail.com">
                   <span>
                     <SiGmail /> imsinghshivendra@gmail.com
                   </span>
                 </a>
               </div>
               <div>
-                <a href="https://www.instagram.com/im_acrobat/">
+                <a target="_blank" href="https://www.instagram.com/im_acrobat/">
                   <span>
                     <FaInstagram /> im_acrobat
                   </span>
@@ -102,13 +102,14 @@ function Contact() {
             </div>
             <div className="contact-github-linkedin">
               <a
+                target="_blank"
                 href="https://www.linkedin.com/in/shivendra-singh044/"
                 data-tip="My Linkedin"
               >
                 <FiLinkedin />
               </a>
 
-              <a href="https://github.com/shivaay044" data-tip="My Github">
+              <a target="_blank" href="https://github.com/shivaay044" data-tip="My Github">
                 <FaGithubAlt />
               </a>
 
