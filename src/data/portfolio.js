@@ -37,7 +37,7 @@ export const hero = {
 };
 
 export const stats = [
-  { value: 2, suffix: "+", caption: "Years of experience" },
+  { value: 3, suffix: "+", caption: "Years of experience" },
   { value: 5, suffix: "", caption: "Roles across companies" },
   { value: 100, suffix: "+", caption: "Students mentored" },
   { value: 300, suffix: "+", caption: "Git commits" },
@@ -46,7 +46,7 @@ export const stats = [
 export const about = {
   lead: `I'm ${profile.name}, a Senior MERN Stack Engineer based in Surat, Gujarat, building scalable, real-time web applications across casino, marketplace and e-commerce platforms.`,
   paragraphs: [
-    "Over 2+ years I've worked across the full stack — real-time features with Socket.io and WebSocket, third-party game and payment integrations, backend architecture and database design, and an AI-powered mock interview platform for a coding bootcamp I mentored at.",
+    "Over 3+ years I've worked across the full stack — real-time features with Socket.io and WebSocket, third-party game and payment integrations, backend architecture and database design, and an AI-powered mock interview platform for a coding bootcamp I mentored at.",
     "Originally from Gorakhpur, Uttar Pradesh. Outside of code: eSports, travelling, exploring new places, and reading adventure stories.",
   ],
 };
