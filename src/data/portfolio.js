@@ -8,8 +8,8 @@ export const profile = {
   githubUser: "Shivaay044",
   linkedin: "https://www.linkedin.com/in/shivendra-singh044/",
   instagram: "https://www.instagram.com/im_acrobat/",
-  resumeView: "https://drive.google.com/file/d/1_QMQsxZ1AFKyRtPkXZ_UeaKocv0Avqhp/view?usp=sharing",
-  resumeDownload: "https://drive.google.com/uc?export=download&id=1_QMQsxZ1AFKyRtPkXZ_UeaKocv0Avqhp",
+  resumeView: "/resume/Shivendra_Singh_Resume.pdf",
+  resumeDownload: "/resume/Shivendra_Singh_Resume.pdf",
   available: true,
 };
 
