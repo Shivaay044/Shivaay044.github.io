@@ -1,0 +1,63 @@
+.process-heading {
+  margin-bottom: 40px;
+}
+
+.process-flow {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 12px;
+  margin-bottom: 48px;
+}
+
+.process-node {
+  flex: 1 0 160px;
+  min-width: 160px;
+  padding: 20px;
+}
+
+.process-node-label {
+  font-size: 13px;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.process-node-detail {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.process-arrow {
+  display: flex;
+  align-items: center;
+  color: var(--accent);
+  font-size: 16px;
+}
+
+.process-notes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.process-note {
+  border-top: 2px solid var(--accent);
+  padding-top: 14px;
+}
+
+.process-note-label {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.process-note-detail {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .process-notes {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,65 @@
+.open-source-heading {
+  margin-bottom: 40px;
+}
+
+.repos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.repo-card {
+  padding: 24px;
+}
+
+.repo-name {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.repo-name .accent {
+  color: var(--accent);
+  margin-right: 2px;
+}
+
+.repo-description {
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 42px;
+  margin-bottom: 20px;
+}
+
+.repo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+
+.repo-language {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.repo-language-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+@media (max-width: 900px) {
+  .repos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .repos-grid {
+    grid-template-columns: 1fr;
+  }
+}

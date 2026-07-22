@@ -1,0 +1,47 @@
+:root {
+  --bg: #faf9f6;
+  --surface: #ffffff;
+  --surface-2: #f4f2ec;
+  --text: #1b1a17;
+  --muted: #6f6d64;
+  --border: #e6e2d9;
+  --accent: #e8590c;
+  --accent-soft: rgba(232, 89, 12, 0.09);
+
+  --font-sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+
+  --content-max: 1120px;
+  --space-side: 40px;
+  --space-section: 96px;
+
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+:root[data-theme="dark"] {
+  --bg: #131210;
+  --surface: #1b1a16;
+  --surface-2: #201e19;
+  --text: #ece9e1;
+  --muted: #928f85;
+  --border: #2c2925;
+  --accent: #ff7a33;
+  --accent-soft: rgba(255, 122, 51, 0.11);
+}
+
+@media (max-width: 640px) {
+  :root {
+    --space-side: 20px;
+    --space-section: 64px;
+  }
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.35s ease, color 0.35s ease;
+}

@@ -1,103 +1,64 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
-import { FiMenu } from "react-icons/fi";
-import { CgClose } from "react-icons/cg";
-import { HiHome } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaTools } from "react-icons/fa";
-import {AiTwotoneSetting} from "react-icons/ai";
-import {MdContacts} from "react-icons/md";
-
+import { FiMenu, FiX } from "react-icons/fi";
+import { useTheme } from "../../theme/ThemeContext";
+import { nav, profile } from "../../data/portfolio";
 
 function Navbar() {
-  const [hameburger, setHamberger] = useState("hameburger-open-icon-invisible");
+  const [open, setOpen] = useState(false);
+  const { theme, toggleTheme } = useTheme();
+  const [pulseDot, setPulseDot] = useState(false);
 
-  const handleHamburgToggle = (e) => {
-    if (hameburger === "hameburger-open-icon-invisible") {
-      setHamberger("nav-all-opt");
-    } else {
-      setHamberger("hameburger-open-icon-invisible");
-    }
+  const handleToggleTheme = () => {
+    toggleTheme();
+    setPulseDot(true);
+    setTimeout(() => setPulseDot(false), 400);
   };
 
   return (
-    <header>
-      <div id="nav-menu" className="navbar">
-        <div>
-          <a className="nav-head" href="#">
-            SHIVENDRA SINGH
-          </a>
-        </div>
-
-        <a onClick={handleHamburgToggle} className="hameburger-open-icon">
-          {hameburger == "nav-all-opt" ? (
-            <CgClose size="35px" />
-          ) : (
-            <FiMenu size="35px" />
-          )}
+    <header className="nav">
+      <div className="container nav-inner">
+        <a className="nav-logo mono" href="#top">
+          <span className="nav-logo-square" />
+          {profile.name.split(" ")[0].toUpperCase()}
         </a>
-        <div id="thirdCircle" className={hameburger}>
-          <a
-            onClick={() => {
-              setHamberger("hameburger-open-icon-invisible");
-            }}
-            className="nav-link home"
-            href="/#home"
-          >
-            <span><HiHome/> Home</span>
-          </a>
-          <a
-            onClick={() => {
-              setHamberger("hameburger-open-icon-invisible");
-            }}
-            className="nav-link about"
-            href="/#about"
-          >
-           <span><BsFillPersonLinesFill/> About</span>
-          </a>
-          <a
-            onClick={() => {
-              setHamberger("hameburger-open-icon-invisible");
-            }}
-            className="nav-link skills"
-            href="/#skills"
-          >
-           <span><FaTools/> Skills </span>
-          </a>
-          <a
-            onClick={() => {
-              setHamberger("hameburger-open-icon-invisible");
-            }}
-            className="nav-link projects"
-            href="/#projects"
-          >
-           <span><AiTwotoneSetting/> Projects</span>
-          </a>
-          <a
-            onClick={() => {
-              setHamberger("hameburger-open-icon-invisible");
-            }}
-            className="nav-link contact"
-            href="/#contact"
-          >
-           <span><MdContacts/> Contact</span>
-          </a>
-          <button>
+
+        <button
+          className="nav-hamburger"
+          aria-label="Toggle navigation"
+          onClick={() => setOpen((v) => !v)}
+        >
+          {open ? <FiX size={22} /> : <FiMenu size={22} />}
+        </button>
+
+        <nav className={`nav-links ${open ? "nav-links--open" : ""}`}>
+          {nav.map((item) => (
             <a
-              onClick={() => {
-                setHamberger("hameburger-open-icon-invisible")
-              }}
-              className="nav-link resume"
-              id="resume-button-1"
-              href="https://drive.google.com/uc?export=download&id=1_QMQsxZ1AFKyRtPkXZ_UeaKocv0Avqhp"
-              target="_blank"
-              rel="noreferrer"
-              download="Shivendra_Singh_Resume.pdf"
+              key={item.href}
+              href={item.href}
+              className="nav-link"
+              onClick={() => setOpen(false)}
             >
-              Resume
+              {item.label}
             </a>
+          ))}
+          <a
+            href={profile.resumeDownload}
+            target="_blank"
+            rel="noreferrer"
+            download="Shivendra_Singh_Resume.pdf"
+            className="nav-link"
+            onClick={() => setOpen(false)}
+          >
+            Resume
+          </a>
+          <button className="theme-toggle" onClick={handleToggleTheme}>
+            <span className={`theme-toggle-dot ${pulseDot ? "theme-toggle-dot--pulse" : ""}`} />
+            <span key={theme} className="theme-toggle-label mono">
+              {theme}
+            </span>
           </button>
-        </div>
+        </nav>
       </div>
     </header>
   );
